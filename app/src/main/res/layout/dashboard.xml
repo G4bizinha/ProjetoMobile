@@ -57,9 +57,10 @@
         android:id="@+id/btn_musica"
         android:layout_width="227dp"
         android:layout_height="50dp"
+        android:layout_marginStart="88dp"
         android:layout_marginTop="16dp"
         android:text="Ouvir Músicas 🎶 "
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        tools:layout_editor_absoluteX="91dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
