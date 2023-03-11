@@ -13,13 +13,15 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="229dp"
         android:layout_height="48dp"
+        android:layout_marginStart="88dp"
         android:fontFamily="sans-serif-medium"
         android:text="Sair"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_musica"
-        app:layout_constraintVertical_bias="0.298" />
+        app:layout_constraintVertical_bias="0.259" />
 
     <TextView
         android:id="@+id/textView4"
